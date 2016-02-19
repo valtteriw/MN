@@ -1,4 +1,8 @@
 <?php
+
+
+echo "<br><br>";
+
 $kokonimi="  markus norrena  \n";
 echo "Alussa: " . $kokonimi . " .";
 
@@ -16,8 +20,6 @@ foreach ($nimet as $nimi) {
 $kokonimi = trim($kokonimi);
 
 echo "Lopussa: " . $kokonimi . ".";
-
-
 
 
 function addname($first, $second) {
